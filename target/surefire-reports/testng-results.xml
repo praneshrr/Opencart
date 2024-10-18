@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-18T08:45:51 IST" name="MasterSuite" finished-at="2024-10-18T08:45:59 IST" duration-ms="8363">
+    <groups>
+      <group name="sanity">
+        <method signature="Tc001_Accountregistertest.accregistation()[pri:0, instance:TestCases.Tc001_Accountregistertest@362045c0]" name="accregistation" class="TestCases.Tc001_Accountregistertest"/>
+      </group> <!-- sanity -->
+      <group name="master">
+        <method signature="Tc001_Accountregistertest.accregistation()[pri:0, instance:TestCases.Tc001_Accountregistertest@362045c0]" name="accregistation" class="TestCases.Tc001_Accountregistertest"/>
+      </group> <!-- master -->
+    </groups>
+    <test started-at="2024-10-18T08:45:51 IST" name="Test" finished-at="2024-10-18T08:45:59 IST" duration-ms="8363">
+      <class name="TestCases.Tc001_Accountregistertest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:TestCases.Tc001_Accountregistertest@362045c0]" started-at="2024-10-18T08:45:51 IST" name="setup" finished-at="2024-10-18T08:45:57 IST" duration-ms="5176" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mac]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="accregistation()[pri:0, instance:TestCases.Tc001_Accountregistertest@362045c0]" started-at="2024-10-18T08:45:57 IST" name="accregistation" finished-at="2024-10-18T08:45:59 IST" duration-ms="2558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accregistation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.Tc001_Accountregistertest@362045c0]" started-at="2024-10-18T08:45:59 IST" name="teardown" finished-at="2024-10-18T08:45:59 IST" duration-ms="297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestCases.Tc001_Accountregistertest -->
+    </test> <!-- Test -->
+  </suite> <!-- MasterSuite -->
+</testng-results>
