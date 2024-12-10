@@ -1,52 +1,68 @@
-08:27:15.934 [main] INFO  TestCases.Tc003_datadriventest - **** MyAccountPage *****
-08:27:16.705 [main] INFO  TestCases.Tc003_datadriventest - **** Stared Tc003_datadriventest *****
-08:27:16.705 [main] INFO  TestCases.Tc003_datadriventest - **** Homepage *****
-08:27:17.137 [main] INFO  TestCases.Tc003_datadriventest - **** LoginPage *****
-08:27:18.195 [main] INFO  TestCases.Tc003_datadriventest - **** MyAccountPage *****
-13:05:16.700 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\panpr\eclipse-workspace\Opencart\master.xml"
-13:05:17.005 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+08:11:25.070 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   C:\Users\panpr\eclipse-workspace\Opencart\master.xml
 
-13:05:25.943 [main] INFO  TestCases.Tc001_Accountregistertest - **** Stared Test case *****
-13:05:25.945 [main] INFO  TestCases.Tc001_Accountregistertest - **** Homepage *****
-13:05:26.685 [main] INFO  TestCases.Tc001_Accountregistertest - **** RegisterAccountPage *****
-13:05:28.973 [main] INFO  TestCases.Tc001_Accountregistertest - **** validating *****
-13:05:29.055 [main] INFO  TestCases.Tc001_Accountregistertest - **** Finished Test case *****
-13:05:49.830 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\panpr\eclipse-workspace\Opencart\master.xml"
-13:05:50.117 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+08:11:29.334 [main] INFO  TestCases.Tc002_logintest - **** Stared Test case *****
+08:11:29.335 [main] INFO  TestCases.Tc002_logintest - **** Homepage *****
+08:23:54.193 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\panpr\eclipse-workspace\Opencart\master.xml"
+08:23:54.477 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   C:\Users\panpr\eclipse-workspace\Opencart\master.xml
 
-13:05:56.028 [main] INFO  TestCases.Tc001_Accountregistertest - **** Stared Test case *****
-13:05:56.028 [main] INFO  TestCases.Tc001_Accountregistertest - **** Homepage *****
-13:05:57.030 [main] INFO  TestCases.Tc001_Accountregistertest - **** RegisterAccountPage *****
-13:05:59.337 [main] INFO  TestCases.Tc001_Accountregistertest - **** validating *****
-13:05:59.430 [main] INFO  TestCases.Tc001_Accountregistertest - **** Finished Test case *****
-13:06:21.822 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\panpr\eclipse-workspace\Opencart\master.xml"
-13:06:22.114 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+08:23:58.966 [main] INFO  TestCases.Tc002_logintest - **** Stared Test case *****
+08:23:58.967 [main] INFO  TestCases.Tc002_logintest - **** Homepage *****
+08:24:19.943 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\panpr\eclipse-workspace\Opencart\master.xml"
+08:24:20.298 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   C:\Users\panpr\eclipse-workspace\Opencart\master.xml
 
-13:10:20.661 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\panpr\eclipse-workspace\Opencart\master.xml"
-13:10:20.946 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+08:24:23.763 [main] INFO  TestCases.Tc002_logintest - **** Stared Test case *****
+08:24:23.767 [main] INFO  TestCases.Tc002_logintest - **** Homepage *****
+08:24:45.980 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\panpr\eclipse-workspace\Opencart\master.xml"
+08:24:46.270 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   C:\Users\panpr\eclipse-workspace\Opencart\master.xml
 
-13:10:28.209 [main] INFO  TestCases.Tc001_Accountregistertest - **** Stared Test case *****
-13:10:28.209 [main] INFO  TestCases.Tc001_Accountregistertest - **** Homepage *****
-13:10:29.447 [main] INFO  TestCases.Tc001_Accountregistertest - **** RegisterAccountPage *****
-13:10:31.782 [main] INFO  TestCases.Tc001_Accountregistertest - **** validating *****
-13:10:31.882 [main] INFO  TestCases.Tc001_Accountregistertest - **** Finished Test case *****
-13:10:50.765 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\panpr\eclipse-workspace\Opencart\master.xml"
-13:10:51.078 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+08:24:49.737 [main] INFO  TestCases.Tc002_logintest - **** Stared Test case *****
+08:24:49.738 [main] INFO  TestCases.Tc002_logintest - **** Homepage *****
+08:25:32.310 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\panpr\eclipse-workspace\Opencart\master.xml"
+08:25:32.608 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   C:\Users\panpr\eclipse-workspace\Opencart\master.xml
 
-08:30:04.304 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\panpr\eclipse-workspace\Opencart\master.xml"
-08:30:13.667 [main] INFO  TestCases.Tc001_Accountregistertest - **** Stared Test case *****
-08:30:13.667 [main] INFO  TestCases.Tc001_Accountregistertest - **** Homepage *****
-08:30:14.384 [main] INFO  TestCases.Tc001_Accountregistertest - **** RegisterAccountPage *****
-08:30:16.013 [main] INFO  TestCases.Tc001_Accountregistertest - **** validating *****
-08:30:16.059 [main] INFO  TestCases.Tc001_Accountregistertest - **** Finished Test case *****
-08:45:51.285 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\panpr\eclipse-workspace\Opencart\master.xml"
-08:45:57.075 [main] INFO  TestCases.Tc001_Accountregistertest - **** Stared Test case *****
-08:45:57.076 [main] INFO  TestCases.Tc001_Accountregistertest - **** Homepage *****
-08:45:57.819 [main] INFO  TestCases.Tc001_Accountregistertest - **** RegisterAccountPage *****
-08:45:59.490 [main] INFO  TestCases.Tc001_Accountregistertest - **** validating *****
-08:45:59.603 [main] INFO  TestCases.Tc001_Accountregistertest - **** Finished Test case *****
+08:25:36.855 [main] INFO  TestCases.Tc002_logintest - **** Stared Test case *****
+08:25:36.855 [main] INFO  TestCases.Tc002_logintest - **** Homepage *****
+08:28:18.987 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\panpr\eclipse-workspace\Opencart\master.xml"
+08:28:19.297 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\panpr\eclipse-workspace\Opencart\master.xml
+
+08:28:23.449 [main] INFO  TestCases.Tc002_logintest - **** Stared Test case *****
+08:28:23.451 [main] INFO  TestCases.Tc002_logintest - **** Homepage *****
+08:32:03.069 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\panpr\eclipse-workspace\Opencart\master.xml"
+08:32:03.355 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\panpr\eclipse-workspace\Opencart\master.xml
+
+08:32:07.786 [main] INFO  TestCases.Tc002_logintest - **** Stared Test case *****
+08:32:07.787 [main] INFO  TestCases.Tc002_logintest - **** Homepage *****
+08:34:00.213 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\panpr\eclipse-workspace\Opencart\master.xml"
+08:34:00.495 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\panpr\eclipse-workspace\Opencart\master.xml
+
+08:34:04.215 [main] INFO  TestCases.Tc002_logintest - **** Stared Test case *****
+08:34:04.216 [main] INFO  TestCases.Tc002_logintest - **** Homepage *****
+08:35:38.085 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\panpr\eclipse-workspace\Opencart\master.xml"
+08:35:38.412 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\panpr\eclipse-workspace\Opencart\master.xml
+
+08:35:41.498 [main] INFO  TestCases.Tc002_logintest - **** Stared Test case *****
+08:35:41.499 [main] INFO  TestCases.Tc002_logintest - **** Homepage *****
+08:36:29.478 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\panpr\eclipse-workspace\Opencart\master.xml"
+08:36:29.769 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\panpr\eclipse-workspace\Opencart\master.xml
+
+08:36:33.643 [main] INFO  TestCases.Tc002_logintest - **** Stared Test case *****
+08:36:33.646 [main] INFO  TestCases.Tc002_logintest - **** Homepage *****
+08:37:07.730 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\panpr\eclipse-workspace\Opencart\master.xml"
+08:37:08.013 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\panpr\eclipse-workspace\Opencart\master.xml
+
+08:37:11.288 [main] INFO  TestCases.Tc002_logintest - **** Stared Test case *****
+08:37:11.288 [main] INFO  TestCases.Tc002_logintest - **** Homepage *****
+12:28:46.534 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\panpr\eclipse-workspace\Opencart\master.xml"
+12:28:53.597 [main] INFO  TestCases.Tc002_logintest - **** Stared Test case *****
+12:28:53.598 [main] INFO  TestCases.Tc002_logintest - **** Homepage *****

@@ -8,8 +8,8 @@
   <parameter name="os" value="mac"></parameter>
   <parameter name="browser" value="chrome"></parameter>
     <classes>
-   		<class name="TestCases.Tc001_Accountregistertest"/>
-      	 <!-- <class name="TestCases.Tc002_logintest"/>   -->
+   		<!-- <class name="TestCases.Tc001_Accountregistertest"/>-->
+      	  <class name="TestCases.Tc002_logintest"/>   		
       	 <!--   <class name="TestCases.Tc003_datadriventest"/> -->
       	
     </classes>

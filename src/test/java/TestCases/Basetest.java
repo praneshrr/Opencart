@@ -16,6 +16,7 @@ import org.openqa.selenium.Platform;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -34,6 +35,15 @@ public class Basetest {
 	@Parameters({"os", "browser"})
 	public void setup(String os, String br) throws IOException
 	{
+		ChromeOptions options = new ChromeOptions();
+		options.setExperimentalOption("excludeSwitches", new String[]{"enable-automation"});
+		options.setExperimentalOption("useAutomationExtension", false);
+		options.addArguments("--disable-blink-features=AutomationControlled");
+		options.addArguments("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36");
+		options.addArguments("--proxy-server=http://<proxy-ip>:<proxy-port>");
+
+
+		
 		FileReader file = new FileReader("./src//test//resources//config.properties");
 		p= new Properties();
 		p.load(file);
@@ -76,7 +86,7 @@ public class Basetest {
 		if (p.getProperty("execution_env").equalsIgnoreCase("local")) {		
 			switch(br.toLowerCase())
 			{
-			case "chrome" : driver = new ChromeDriver(); break;
+			case "chrome" : driver = new ChromeDriver(options); break;
 			case "edge" : driver = new EdgeDriver(); break;
 			case "firefox": driver = new FirefoxDriver(); break;
 			default : System.out.println("Invailed browser name"); return;
@@ -84,9 +94,11 @@ public class Basetest {
 		}
 		
 		
+		
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-		driver.get(p.getProperty("backupurl"));
+		driver.get(p.getProperty("appurl"));
 		driver.manage().window().maximize();
+		
 	}
 	
 	@AfterClass(groups={"regression", "master","sanity"})

@@ -8,13 +8,13 @@
     <parameter name="os" value="mac"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="TestCases.Tc001_Accountregistertest">
+      <class name="TestCases.Tc002_logintest">
         <methods>
-          <include name="accregistation"/>
+          <include name="login"/>
           <include name="setup"/>
           <include name="teardown"/>
         </methods>
-      </class> <!-- TestCases.Tc001_Accountregistertest -->
+      </class> <!-- TestCases.Tc002_logintest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [MasterSuite] -->
